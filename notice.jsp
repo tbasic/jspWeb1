@@ -48,7 +48,14 @@ while(rs.next()){
 %>
 
 </table>
+<a href="noticeReg.jsp">글쓰기</a>
 
 
 </body>
 </html>
+
+<%
+rs.close();
+stmt.close();
+con.close();
+%>
