@@ -43,3 +43,5 @@ response.sendRedirect("notice.jsp");
 pstmt.close();
 con.close();
 %>
+
+

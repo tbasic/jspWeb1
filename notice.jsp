@@ -38,7 +38,7 @@ while(rs.next()){
 %>
 	<tr>
 		<td><%=rs.getInt("seq") %></td>
-		<td><%=rs.getString("title") %></td>
+		<td><a href="noticeDetail.jsp?c=<%=rs.getInt("seq") %>"><%=rs.getString("title") %></a></td>
 		<td><%=rs.getString("title") %></td>
 		<td><%=rs.getDate("regdate") %></td>
 		<td><%=rs.getInt("seq") %></td>
